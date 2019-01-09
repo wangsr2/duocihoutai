@@ -1,0 +1,20 @@
+﻿@using WebApplication1.ViewModels
+@model EmCu
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>YourView</title>
+</head>
+<body>
+    <div> 
+        View2+@Model.CustomerInfo.CustomerName<br />
+        @Model.EmployeeInfo.Salary
+    </div>
+</body>
+</html>
